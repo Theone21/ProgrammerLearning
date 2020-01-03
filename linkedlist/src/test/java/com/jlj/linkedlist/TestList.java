@@ -4,6 +4,9 @@ package com.jlj.linkedlist;
 import org.junit.Assert;
 import org.junit.Test;
 
+import java.util.LinkedList;
+import java.util.List;
+
 public class TestList {
 
     @Test
@@ -14,6 +17,8 @@ public class TestList {
         list.add(new HeroNode(2, "刘备", null));
         Assert.assertEquals(3, list.size);
         System.out.println(list);
+        List<String> lists = new LinkedList<>();
+
     }
 
     @Test
