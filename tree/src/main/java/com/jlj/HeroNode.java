@@ -1,5 +1,9 @@
 package com.jlj;
 
+
+/**
+ * 这个是二叉树中的结点
+ */
 public class HeroNode {
 
     private int no;
